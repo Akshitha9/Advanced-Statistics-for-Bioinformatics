@@ -9,3 +9,4 @@ with sqlite3.connect('db/project.db') as con:
 
 with sqlite3.connect('db/project.db') as con:
     df.to_sql("data_mrna_seq_v2_rsem_zscores_ref_all_samples", con)
+    
